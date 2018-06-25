@@ -3,6 +3,10 @@ class ApplicationController < ActionController::Base
 
   before_action :show_flash
 
+  def index
+
+  end
+
   private
 
   def show_flash
